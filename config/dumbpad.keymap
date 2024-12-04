@@ -52,10 +52,10 @@
         default_layer {
             bindings = <
 &kp C_PP
-&kp KP_N7  &kp KP_N8  &kp KP_N9        &kp KP_MINUS
-&kp KP_N4  &kp KP_N5  &kp KP_N6        &kp KP_PLUS
-&kp KP_N1  &kp KP_N2  &kp KP_NUMBER_3  &td_mul_div
-&td        &kp KP_N0  &kp KP_DOT       &kp KP_EQUAL
+&kp A     &kp B  &kp C  &kp D
+&kp E     &kp F  &kp G  &kp H
+&kp I     &kp J  &kp K  &kp L
+&kp M     &kp N  &kp O  &kp P
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
