@@ -46,13 +46,22 @@
         };
     };
 
+    macros {
+        macro_1: macro_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(NUMBER_1))>;
+            label = "MACRO_1";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
 &kp C_PP
-&kp A     &kp B  &kp C  &kp D
+&kp A     &kp B  &kp C  &macro_1
 &kp E     &kp F  &kp G  &kp H
 &kp I     &kp J  &kp K  &kp L
 &kp M     &kp N  &kp O  &kp P
