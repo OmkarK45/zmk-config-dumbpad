@@ -50,8 +50,113 @@
         macro_1: macro_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LG(LA(LC(LS(Q))))>;
             label = "MACRO_1";
+        };
+
+        macro_2: macro_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(W))))>;
+            label = "MACRO_2";
+        };
+
+        macro_3: macro_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(E)))>;
+            label = "MACRO_3";
+        };
+
+        macro_4: macro_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(R)))>;
+            label = "MACRO_4";
+        };
+
+        macro_5: macro_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(T))))>;
+            label = "MACRO_5";
+        };
+
+        macro_6: macro_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(Y))))>;
+            label = "MACRO_6";
+        };
+
+        macro_7: macro_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(U))))>;
+            label = "MACRO_7";
+        };
+
+        macro_8: macro_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(I))))>;
+            label = "MACRO_8";
+        };
+
+        macro_9: macro_9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(O))))>;
+            label = "MACRO_9";
+        };
+
+        macro_10: macro_10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(P))))>;
+            label = "MACRO_10";
+        };
+
+        macro_11: macro_11 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(A))))>;
+            label = "MACRO_11";
+        };
+
+        macro_12: macro_12 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(S))))>;
+            label = "MACRO_12";
+        };
+
+        macro_13: macro_13 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(D))))>;
+            label = "MACRO_13";
+        };
+
+        macro_14: macro_14 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(F)))>;
+            label = "MACRO_14";
+        };
+
+        macro_15: macro_15 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(G))))>;
+            label = "MACRO_15";
+        };
+
+        macro_16: macro_16 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(H))))>;
+            label = "MACRO_16";
         };
     };
 
@@ -61,10 +166,10 @@
         default_layer {
             bindings = <
 &kp C_PP
-&kp A     &kp B  &kp C  &macro_1
-&kp E     &kp F  &kp G  &kp H
-&kp I     &kp J  &kp K  &kp L
-&kp M     &kp N  &kp O  &kp P
+&macro_13  &macro_9   &macro_5  &macro_1
+&macro_14  &macro_10  &macro_6  &macro_2
+&macro_15  &macro_11  &macro_7  &macro_3
+&macro_16  &macro_12  &macro_8  &macro_4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
